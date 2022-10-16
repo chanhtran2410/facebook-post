@@ -1,0 +1,25 @@
+.root {
+  position: relative;
+  width: 96px;
+  height: 96px;
+  align-items: flex-start;
+  overflow: hidden;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.rectangle16 {
+  transform-origin: top left;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  outline: solid 2px #0000001a;
+  outline-offset: -2px;
+  border-radius: 50px;
+  background-color: #395996;
+  background-image:/* webpackIgnore: true */ url('assets/rectangle16.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
